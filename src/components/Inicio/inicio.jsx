@@ -49,7 +49,7 @@ export default function Inicio() {
                     <p>
                         Lo impresionante de la programación es la gran variedad de aplicación. En este momento estoy desarrollándome
                         en páginas web, pero en mis tiempos de profesora desarrollé aplicaciones de escritorio para uso personal
-                        que me ayudaran en mi trabajo diario, sobre todo cuando tuve que realizar trabajo administrativo,
+                        que me ayudaban en mi trabajo diario, sobre todo cuando tuve que realizar trabajo administrativo,
                         el cual implica realizar tareas repetitivas, y de gran volumen, las cuales se pueden  agilizar
                         fácilmente con software.
                     </p>
