@@ -40,6 +40,23 @@ header {
     border-color: var(--bordercolorprimario);
     border-style: solid;
     border-width: 1px;
+
+    animation: movimiento 3s ease 0s infinite;
+}
+
+@keyframes movimiento {
+    0% {
+        border-color: var(--bordercolorsecundario);
+        rotate: 0deg;
+    }
+    50% {
+        border-color: var(--bordercolorprimario);
+        rotate: 30deg;
+    }
+    100% {
+        border-color: var(--bordercolorsecundario);
+        rotate: 0deg;
+    }
 }
 
 .ovalorojo {
@@ -58,6 +75,8 @@ header {
     border-color: var(--bordercolorsecundario);
     border-style: solid;
     border-width: 2px;
+
+    animation: movimiento 3s ease 3s infinite;
 }
 
 
