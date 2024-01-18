@@ -54,7 +54,7 @@ export default function Inicio() {
                         fácilmente con software.
                     </p>
                     <p>
-                        En resumen, no importa el background que tengas, lo que hayas estudiado, o a qué te hayas dedicado antes.
+                        En resumen, no importa lo que hayas estudiado, o a qué te hayas dedicado antes.
                         Si te gusta la programación, empezá ya, no te detengas. Hay mucha información gratis en internet para aprender
                         programación.
                     </p>
