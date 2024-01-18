@@ -28,8 +28,8 @@ export default function Inicio() {
 
                     </div>
                     <p>
-                        El objetivo de este blog, además exponer los contenidos básicos sobre HTML, CSS, Javascript,
-                        es poder poner en práctica estos conocimientos construyendo este blog a partir de estos conceptos.
+                        El objetivo de este blog, es además exponer los contenidos básicos sobre HTML, CSS, Javascript,
+                        y poder poner en práctica estos conocimientos construyendo este blog a partir de estos conceptos.
                         Sobre todo me interesa poder aplicar todo lo que aquí se escriba, porque lo que no se aplica,
                         no se aprende realmente.
                     </p>
