@@ -12,7 +12,7 @@ export default function Navbar() {
                     <div className={s.logotexto}>MIS APUNTES</div>
                 </div>
 
-                <div className={s.cuadrado}></div>
+
                 {/* <img className={s.logo} src='./Logo-mis-apuntes2.png'></img> */}
                 <div className={s.menu}>
                     <div>INICIO</div>
