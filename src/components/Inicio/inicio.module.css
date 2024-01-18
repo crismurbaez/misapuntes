@@ -1,0 +1,54 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    width: 100wh;
+    min-height: 100vh;
+
+    background-color: var(--fondobody);
+}
+
+.bordetexto {
+    margin: 50px;
+
+    border-radius: 20px;
+    border-color: var(--bordercolorprimario);
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.titulo {
+    margin: 100px 0 0 100px;
+
+    font-family: var(--bodytitulo);
+
+    color: var(--textotitulo);
+
+}
+
+.texto {
+    display: flex;
+    gap: 40px;
+
+    margin: 30px 100px 100px 100px;
+
+    font-family: var(--bodytexto);
+
+    color: var(--textogeneral);
+
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 30px;
+}

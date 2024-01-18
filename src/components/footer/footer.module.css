@@ -1,0 +1,16 @@
+.footer {
+    /* font-family: 'Allerta Stencil'; */
+    /* font-family: 'Audiowide'; */
+    font-family: var(--footertexto);
+    /* font-family: 'Six Caps'; */
+    width: 100wh;
+    height: 350px;
+    /* background: repeating-linear-gradient(-45deg,
+            #012929 20px, #012929 40px, #0e3a3a 40px, #0e3a3a 60px); */
+    background-color: var(--fondofooter);
+    display: flex;
+    /* gap: 20px; */
+    color: var(--textosubtitulo);
+    justify-content: center;
+    align-items: center;
+}

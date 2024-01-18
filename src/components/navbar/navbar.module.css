@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100wh;
+    height: 150px;
+
+    background-color: var(--fondonavbar);
+
+    color: var(--textotitulo);
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logotexto {
+    position: relative;
+
+    font-family: var(--navbarlogo);
+    font-size: 40px;
+
+}
+
+.ovalodorado {
+    position: absolute;
+    left: 100px;
+    top: -20px;
+
+    margin: 20px;
+
+    width: 70px;
+    height: 150px;
+
+    transform: rotate(65deg);
+
+    border-radius: 50%;
+    border-color: var(--bordercolorprimario);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ovalorojo {
+    position: absolute;
+    left: 90px;
+    top: -20px;
+
+    margin: 20px;
+
+    width: 70px;
+    height: 150px;
+
+    transform: rotate(45deg);
+
+    border-radius: 50%;
+    border-color: var(--bordercolorsecundario);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+
+    transform: rotate(30deg);
+
+    border-radius: 5px;
+    border-color: var(--bordercolorprimario);
+    border-style: solid;
+    border-width: 1px;
+
+
+}
+
+/* no estoy utilizando estas líneas */
+.linered {
+    width: 100wh;
+    height: 5px;
+
+    background-color: var(--bordercolorsecundario);
+}
+
+.linedor {
+    width: 100wh;
+    height: 1px;
+
+    background-color: var(--bordercolorsecundario);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+    margin-right: 50px;
+    
+    font-family: var(--navbarmenu);
+    font-size: larger;
+}

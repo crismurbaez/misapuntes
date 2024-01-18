@@ -1,13 +1,21 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* variables de color */
+  --fondonavbar: #161616;
+  --fondobody: #1b1b1b;
+  --fondofooter: #5a2323;
+  --bordercolorprimario: #d59b78;
+  --bordercolorsecundario: #5a2323;
+  --textotitulo: #d59b78;
+  --textosubtitulo: #e5c69E;
+  --textogeneral: #ffffff;
+
+  /* variables de tipo de texto */
+  --navbarlogo: 'Allerta Stencil';
+  --navbarmenu: 'Gruppo';
+  --bodytitulo: 'Audiowide';
+  --bodytexto: 'Raleway';
+  --footertexto: 'Gruppo';
 }
