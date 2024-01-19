@@ -22,8 +22,8 @@ export default function Navbar() {
                 </div>
 
             </header>
-            {/* <div className={s.linedor}></div> */}
-            {/* <div className={s.linered}></div> */}
+            {/* <div className={s.linedor}></div>
+            <div className={s.linered}></div> */}
 
         </div>
 

@@ -44,21 +44,6 @@ header {
     animation: movimiento 3s ease 0s infinite;
 }
 
-@keyframes movimiento {
-    0% {
-        border-color: var(--bordercolorsecundario);
-        rotate: 0deg;
-    }
-    50% {
-        border-color: var(--bordercolorprimario);
-        rotate: 30deg;
-    }
-    100% {
-        border-color: var(--bordercolorsecundario);
-        rotate: 0deg;
-    }
-}
-
 .ovalorojo {
     position: absolute;
     left: 90px;
@@ -78,22 +63,20 @@ header {
 
     animation: movimiento 3s ease 2s infinite;
 }
-
-
-
-/* no estoy utilizando estas líneas */
 .linered {
-    width: 100wh;
+    width: 100vw;
     height: 5px;
 
     background-color: var(--bordercolorsecundario);
+    /* hacer el javascript para hacer con el scroll */
+    animation: resize 2s ease 0s;
 }
 
 .linedor {
-    width: 100wh;
+    width: 100vw;
     height: 1px;
 
-    background-color: var(--bordercolorsecundario);
+    background-color: var(--bordercolorprimario);
 }
 
 .menu {
@@ -104,4 +87,24 @@ header {
 
     font-family: var(--navbarmenu);
     font-size: larger;
+}
+
+@keyframes resize {
+    0% {width: 0px}
+    100% {width: 100vw}
+}
+
+@keyframes movimiento {
+    0% {
+        border-color: var(--bordercolorsecundario);
+        rotate: 0deg;
+    }
+    50% {
+        border-color: var(--bordercolorprimario);
+        rotate: 30deg;
+    }
+    100% {
+        border-color: var(--bordercolorsecundario);
+        rotate: 0deg;
+    }
 }

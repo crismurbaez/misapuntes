@@ -5,7 +5,10 @@ import s from './inicio.module.css';
 export default function Inicio() {
     return (
         <div className={s.principal}>
+
+
             <div className={s.bordetexto}>
+
                 <h1 className={s.titulo}>INTRODUCCIÓN</h1>
 
                 <div className={s.texto}>

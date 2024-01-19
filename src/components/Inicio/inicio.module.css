@@ -7,11 +7,13 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    width: 100wh;
+    width: 100vw;
     min-height: 100vh;
 
     background-color: var(--fondobody);
 }
+
+
 
 .bordetexto {
     margin: 50px;
