@@ -22,28 +22,23 @@
     border-color: var(--bordercolorprimario);
     border-style: solid;
     border-width: 1px;
-
 }
 
 .titulo {
-    margin: 100px 0 0 100px;
+    margin: 100px 0 50px 50px;
 
     font-family: var(--bodytitulo);
-
     color: var(--textotitulo);
-
 }
 
 .texto {
     display: flex;
-    gap: 40px;
-
-    margin: 30px 100px 100px 100px;
+    gap: 30px;
+    padding: 0px 50px 100px 50px;
 
     font-family: var(--bodytexto);
-
+    line-height: 25px;
     color: var(--textogeneral);
-
 }
 
 .iconos {
@@ -51,6 +46,6 @@
     flex-direction: column;
 }
 
-img {
+.image {
     width: 30px;
 }

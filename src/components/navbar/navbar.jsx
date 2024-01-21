@@ -1,8 +1,34 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom'
 import s from './navbar.module.css';
 
+
 export default function Navbar() {
+
+    const menu = [
+        {
+            name: 'INICIO',
+            link: "/inicio"
+        },
+        // {
+        //     name: 'HTML',
+        //     link: "/html"
+        // },
+        // {
+        //     name: 'CSS',
+        //     link: "/css"
+        // },
+        // {
+        //     name: 'JAVASCRIPT',
+        //     link: "/javascript"
+        // },
+        {
+            name: 'NODEJS',
+            link: "/nodejs"
+        }
+    ]
+
     return (
         <div>
             <header className={s.header}>
@@ -14,13 +40,19 @@ export default function Navbar() {
 
 
                 {/* <img className={s.logo} src='./Logo-mis-apuntes2.png'></img> */}
-                <div className={s.menu}>
-                    <div>INICIO</div>
-                    <div>HTML</div>
-                    <div>CSS</div>
-                    <div>JAVASCRIPT</div>
-                </div>
+                <menu className={s.menu}>
 
+                    {menu?.map((m) => {
+                        return (
+                            <div >
+                                <Link className={s.elementMenu} to={`${m.link}`}>{m.name}</Link>
+                            </div>
+                        );
+                    })}
+
+
+
+                </menu>
             </header>
             {/* <div className={s.linedor}></div>
             <div className={s.linered}></div> */}

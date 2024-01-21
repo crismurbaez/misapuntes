@@ -87,6 +87,12 @@ header {
 
     font-family: var(--navbarmenu);
     font-size: larger;
+
+}
+
+.elementMenu {
+    text-decoration: none;
+    color: var(--textotitulo)
 }
 
 @keyframes resize {
