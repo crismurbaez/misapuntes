@@ -7,9 +7,9 @@ import {
 export default function Nodejs() {
     return (
         <div className={s.principal}>
-            <h1 className={s.titulo}>Iniciamos con NodeJs</h1>
+            <h1 className={s.titulo}>Back-End con NodeJs</h1>
             <section className={s.texto}>
-                <p>Para comenzar a escribir código en el backend de un proyecto,
+                <p>Para comenzar a escribir código en el Back-End de un proyecto,
                     y si decidimos utilizar javascript, nuestra opción será NodeJs.
                     Este es un entorno de ejecución de javascript, es decir un sitio donde
                     podremos ejecutarlo.
@@ -64,18 +64,18 @@ export default function Nodejs() {
                         const express = require('express');  //requerimos las librerías a utilizar
                         const cors = require('cors');
                         
-                        const app = express();   //creamos la app del servidor
-                        const PORT = 3001;      //guardamos en una constante el puerto que utilizaremos
-                                                //más adelante crearemos una variable de entorno para esto
-                        app.use(express.json());
-                        app.use(cors());
+                        const app = express();              //creamos la app del servidor
+                        const PORT = 3001;                  //guardamos en una constante el puerto que utilizaremos
+                                                            //más adelante crearemos una variable de entorno para esto
+                        app.use(express.json());            //le pasamos al servidor el formato JSON
+                        app.use(cors());                    //le pasamos las cors
                         
-                        app.get('/', (req, res) => {         
-                            res.send('Hello, world!');       
+                        app.get('/', (req, res) => {         //creamos una ruta inicial con un Hello World para 
+                            res.send('Hello, world!');       //comprobar que funciona nuestro servidor.
                         })
                         
-                        app.listen(PORT, () => {
-                            console.log(\`listening on \${PORT}\`);
+                        app.listen(PORT, () => {                    //escuchamos el servidor
+                            console.log(\`listening on \${PORT}\`);    //y mostramos el puerto
                         })
                             `
                         }
@@ -88,10 +88,10 @@ export default function Nodejs() {
                     <SyntaxHighlighter language="javascript" className={s.codigo} style={tomorrowNightBright} >
                         {
                             `
-                                npx express-generator
-                                npm install
-                                npm start
-                                `
+                        npx express-generator
+                        npm install
+                        npm start
+                        `
                         }
                     </SyntaxHighlighter>
                 </p>
