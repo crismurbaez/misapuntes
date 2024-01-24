@@ -11,14 +11,14 @@ export default function Navbar() {
             name: 'INICIO',
             link: "/inicio"
         },
-        // {
-        //     name: 'HTML',
-        //     link: "/html"
-        // },
-        // {
-        //     name: 'CSS',
-        //     link: "/css"
-        // },
+        {
+            name: 'HTML',
+            link: "/html"
+        },
+        {
+            name: 'CSS',
+            link: "/css"
+        },
         {
             name: 'JAVASCRIPT',
             link: "/javascript"
