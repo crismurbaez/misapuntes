@@ -19,8 +19,6 @@ export default function Inicio() {
     ]
     return (
         <div className={s.principal}>
-
-
             <section className={s.bordetexto}>
 
                 <h1 className={s.titulo}>INTRODUCCIÓN</h1>

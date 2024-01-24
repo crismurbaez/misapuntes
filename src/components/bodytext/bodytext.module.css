@@ -1,0 +1,14 @@
+.texto {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 20px;
+    padding: 50px;
+
+    margin: 50px;
+    border-radius: 20px;
+    border-color: var(--bordercolorprimario);
+    border-style: solid;
+    border-width: 1px;
+}

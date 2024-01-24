@@ -1,32 +1,35 @@
 import React from "react";
 import s from "./nodejs.module.css"
+import Main from "../main/main";
+import Title from "../title/title";
+import Bodytext from "../bodytext/bodytext";
+import Highlighted from "../highlighted/highlighted"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {
     tomorrowNightBright,
 } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
+
 export default function Nodejs() {
     return (
-        <div className={s.principal}>
-            <h1 className={s.titulo}>Back-End con NodeJs</h1>
-            <section className={s.texto}>
+        <Main>
+            <Title>Back-End con NodeJs</Title>
+            <Bodytext>
                 <p>Para comenzar a escribir código en el Back-End de un proyecto,
                     y si decidimos utilizar javascript, nuestra opción será NodeJs.
                     Este es un entorno de ejecución de javascript, es decir un sitio donde
                     podremos ejecutarlo.
                     NodeJs es la base del Stack MERN.</p>
                 <p>Para iniciar y crear el
-                    <span className={s.destacado}>
-                        <span className={s.palabraDestacada}>
-                            package.json
-                        </span>
-                    </span>
+                    <Highlighted>"package.json"</Highlighted>
+
+
+
                     , en el cual se guardarán todos los datos referentes
                     al proyecto, se deberá escribir en la terminal
-                    <span className={s.destacado}>
-                        <span className={s.palabraDestacada}>
-                            npm init
-                        </span>
-                    </span>
+                    <Highlighted>"npm init"</Highlighted>
+
+
                     . El sistema nos pedirá un nombre
                     para el proyecto, la versión, una descripcción, el entry point, los comandos para testing,
                     el repositorio de git, keywords, el autor y el tipo de licencia.
@@ -37,28 +40,19 @@ export default function Nodejs() {
                 </p>
                 <p>Luego necesitaremos instalar dos paquetes: express y cors.
                     Para ello escribiremos
-                    <span className={s.destacado}>
-                        <span className={s.palabraDestacada}>
-                            npm install express
-                        </span>
-                    </span>
+                    <Highlighted>"npm install express"</Highlighted>
+
+
                     y lo mismo para
-                    <span className={s.destacado}>
-                        <span className={s.palabraDestacada}>
-                            cors
-                        </span>
-                    </span>
-                    .
+                    <Highlighted>"cors"</Highlighted>
+
                     Una vez instalados, se crea un archivo
-                    <span className={s.destacado}>
-                        <span className={s.palabraDestacada}>
-                            index.js
-                        </span>
-                    </span>
+                    <Highlighted>"index.js"</Highlighted>
+
                     . Elegimos este nombre ya que el sistema lo coloca como entry point,
                     pero lo puedes cambiar a tu gusto.
                     En este archivo escribiremos el código de nuestro servidor:
-                    <SyntaxHighlighter language="javascript" className={s.codigo} style={tomorrowNightBright} >
+                    <SyntaxHighlighter language="nodejs" className={s.codigo} style={tomorrowNightBright} >
                         {
                             `
                         const express = require('express');  //requerimos las librerías a utilizar
@@ -85,7 +79,7 @@ export default function Nodejs() {
                 <p>
                     O también podemos utilizar el generador de projectos de express,
                     ejecutando los siguientes comandos:
-                    <SyntaxHighlighter language="javascript" className={s.codigo} style={tomorrowNightBright} >
+                    <SyntaxHighlighter language="nodejs" className={s.codigo} style={tomorrowNightBright} >
                         {
                             `
                         npx express-generator
@@ -98,8 +92,8 @@ export default function Nodejs() {
                 <p>De esta manera se crea un template de archivos,
                     con varias dependencias de npm de uso común. Y veremos que en el archivo app.js
                     se incluyen varios middlewares de uso común. </p>
-            </section>
+            </Bodytext>
 
-        </div>
+        </Main>
     )
 };

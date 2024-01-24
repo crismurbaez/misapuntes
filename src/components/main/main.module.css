@@ -1,0 +1,12 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    background-color: var(--fondobody);
+
+    font-family: var(--bodytexto);
+    color: var(--textogeneral);
+    line-height: 40px;
+}

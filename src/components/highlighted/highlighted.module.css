@@ -1,0 +1,13 @@
+.highlighted {
+    /* AVERIGUAR POR QUÉ FUNCIONA CON INLINE FLEX LA ROTACIÓN */
+    display: inline-flex;
+    margin: 0px;
+    background-color: rgba(90, 35, 35, 0.9);
+    padding: 1px 5px 1px 5px;
+    transform: rotate(-5deg);
+    border-radius: 50px 20px 50px 1px;
+}
+
+.highlightedWord {
+    transform: rotate(5deg);
+}

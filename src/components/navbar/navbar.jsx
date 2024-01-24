@@ -19,10 +19,10 @@ export default function Navbar() {
         //     name: 'CSS',
         //     link: "/css"
         // },
-        // {
-        //     name: 'JAVASCRIPT',
-        //     link: "/javascript"
-        // },
+        {
+            name: 'JAVASCRIPT',
+            link: "/javascript"
+        },
         {
             name: 'NODEJS',
             link: "/nodejs"
