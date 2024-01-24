@@ -11,7 +11,7 @@
   --textotitulo: #d59b78;
   --textosubtitulo: #e5c69E;
   --textogeneral: #ffffff;
-  --colordestacado:#5a2323;
+  --colordestacado:rgba(90, 35, 35,0.6);
 
   /* variables de tipo de texto */
   --navbarlogo: 'Allerta Stencil';

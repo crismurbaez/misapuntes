@@ -35,6 +35,7 @@ export default function Navbar() {
                 <div className={s.logo}>
                     <div className={s.ovalorojo}></div>
                     <div className={s.ovalodorado}></div>
+                    {/* <div ><img style={{ width: "200px", }} src="Logo-mis-apuntes-2.png" alt="" /></div> */}
                     <div className={s.logotexto}>MIS APUNTES</div>
                 </div>
 
@@ -53,11 +54,11 @@ export default function Navbar() {
 
 
                 </menu>
-            </header>
+            </header >
             {/* <div className={s.linedor}></div>
             <div className={s.linered}></div> */}
 
-        </div>
+        </div >
 
     )
 };
